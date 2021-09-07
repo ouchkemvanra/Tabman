@@ -10,6 +10,15 @@ import UIKit
 
 /// :nodoc:
 extension UINavigationItem: TMBarItemable {
+    public var selectedImage: UIImage? {
+        get {
+            return nil
+        }
+        set {
+            
+        }
+    }
+    
 
     // swiftlint:disable unused_setter_value
 
